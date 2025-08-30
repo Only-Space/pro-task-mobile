@@ -69,12 +69,11 @@ flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
 
 
-📂 Struktur Proyek
-lib/
-|-- main.dart           # Entry point aplikasi
-|-- data/
-|   |-- models/         # Model data (Task, TodoList) untuk Hive
-|-- presentation/
-|   |-- providers/      # Provider untuk state management
-|   |-- screens/        # UI untuk setiap halaman (Home, Detail, Settings)
-|   |-- widgets/        # Komponen UI yang bisa dipakai ulang
+📂 lib/
+ ┣ 📜 main.dart          # Entry point aplikasi
+ ┣ 📂 data/
+ ┃ ┗ 📂 models/          # Model data (Task, TodoList) untuk Hive
+ ┣ 📂 presentation/
+ ┃ ┣ 📂 providers/       # Provider untuk state management
+ ┃ ┣ 📂 screens/         # UI untuk setiap halaman (Home, Detail, Settings)
+ ┃ ┗ 📂 widgets/         # Komponen UI yang bisa dipakai ulang
